@@ -1,0 +1,63 @@
+/* body {
+  /*margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+
+.wrapper{
+  height:500px;
+  width:315px;
+  border:1px solid black;
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  background:radial-gradient(#434545,#5b5c5c,#3f4242);
+  border-radius:5%;
+  -webkit-box-reflect: below -0px linear-gradient(transparent,rgba(255,255,255,0.3));
+  }
+.menu{
+  height:55%;
+  width:100%;
+  
+}
+.buttonCase{
+  height:45%;
+  width:100%;
+  /* background-color:grey; */
+  
+ }
+.buttonBox{
+  position:relative;
+  background-color:#212626;
+  height:89%;
+  width:70%;
+  border-radius:50%;
+  box-sizing: border-box;
+  margin:35px 0 0 45px;
+}
+.center{
+  position:absolute;
+  top:30%;
+  left:30%;
+  height:40%;
+  width:40%;
+  background-image:linear-gradient(#212626,#646666);
+  border-radius:50%;
+}
+.menulist{
+  background-color: white;
+  width:50%;
+  height:100%;
+  margin:-1px 0 0 0;
+}
+.menulist li{
+  list-style-type:none;
+  padding:5px 0 ;
+  margin: 0 0 0 -10px;
+}
+.active{
+  background-color: lightskyblue;
+}
